@@ -1,6 +1,6 @@
 {
-  "name": "static-expiry",
-  "version": "1.0.2",
+  "name": "@cbridgman/static-expiry",
+  "version": "1.0.3",
   "description": "Connect middleware for static files that sets caching response headers as well as generates and rewrites fingerprinted urls.",
   "keywords": [
     "nodejs",
@@ -19,21 +19,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:paulwalker/connect-static-expiry.git"
+    "url": "git@github.com:CBridgman/connect-static-expiry.git"
   },
   "author": "Paul Walker",
   "dependencies": {
-    "@types/connect": "^3.4.30",
-    "@types/node": "^6.0.51",
+    "@types/connect": "^3.4.33",
+    "@types/node": "^10.17.17",
     "findit": "0.1.2",
     "fresh": "^0.5.2"
   },
   "devDependencies": {
-    "connect": "^3.6.6",
-    "express": "^4.16.3",
-    "mocha": "3.x.x",
-    "should": "11.x.x",
-    "supertest": "^2.0.1"
+    "connect": "^3.7.0",
+    "express": "^4.17.1",
+    "mocha": "7.x.x",
+    "should": "13.x.x",
+    "supertest": "^4.0.1"
   },
   "main": "index",
   "typings": "index.d.ts",
